@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.49.2.7:3306/dev_erp2?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: dev_erp_user
+    password: IS3R4k0Lmwa2j0edBY@5qM3nE
+#    driver-class-name: com.mysql.jdbc.Driver
+
+  jpa:
+      hibernate:
+        ddl-auto: create
+        show-sql: true
